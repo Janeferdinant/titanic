@@ -1,0 +1,21 @@
+{
+  "name": "neural-networks-tutorial",
+  "version": "1.0.0",
+  "description": "Animated tutorial for neural networks",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./input.css -o ./tailwind.css --minify",
+    "build:js": "npx babel src --out-file bundle.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-react": "^7.24.7",
+    "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.17.0",
+    "framer-motion": "^10.12.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
